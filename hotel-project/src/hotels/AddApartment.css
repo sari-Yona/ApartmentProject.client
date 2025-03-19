@@ -1,0 +1,141 @@
+body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #262626;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #eb9d29;
+}
+
+.btn {
+    background-color:  #eb9d29;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* תופס את כל רוחב הקונטיינר */
+    padding: 10px; /* הגדלת padding */
+    margin-top: 10px; /* מרווח עליון */
+
+}
+
+.btn:hover {
+    background-color:  #774906;
+}
+
+
+
+.submit {
+    background-color: #eb9d29;
+}
+
+.submit:hover {
+    background-color: #eb9d29;
+}
+
+.section {
+    display: flex;
+    justify-content: center; /* מרכז אופקית */
+    align-items: center; /* מרכז אנכית */
+    height: 100vh; /* גובה הקונטיינר */
+    margin-top: 0; /* מסיר את הממרח העליון */
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%; /* תופס את כל רוחב הקונטיינר */
+    max-width: 400px; /* רוחב מקסימלי של 400px */
+}
+
+.form label {
+    margin: 5px 0;
+}
+
+.form input, .form select {
+    margin-bottom: 10px;
+    padding: 10px; /* הגדלת padding */
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: #f0f0f0;
+    width: 100%; /* תופס את כל רוחב הקונטיינר */
+    box-sizing: border-box; /* כולל padding ו-border בחישוב הרוחב */
+}
+
+.btn {
+}
+
+.form label {
+    margin: 5px 0;
+}
+
+.form input, .form select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: #f0f0f0;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.btn, .section, .form {
+    animation: fadeIn 0.5s ease-in;
+}
+
+.edit {
+    background-color: #14c622;
+}
+
+.edit:hover {
+    background-color:  #58b760;
+}
+.up{
+    background-color:  #fffb13;
+}
+
+.up:hover{
+    background-color:  #c5c46c;
+}
+
+.delete {
+    background-color:  #eb2929;
+}
+
+.delete:hover {
+    background-color: #a74b4b;
+}
