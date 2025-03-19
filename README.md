@@ -122,17 +122,6 @@
  
   ---
  
-  ## Screenshots
- 
-  ### Home Page
- ![Home Page](public/screenshots/home-page.png)
-  ### Advertiser Dashboard
-  ![Advertiser Dashboard](public/screenshots/advertiser-dashboard.png)
- 
-  ### Apartment Details
-  ![Apartment Details](public/screenshots/apartment-details.png)
- 
-  ---
  
   ## Contributing
  
